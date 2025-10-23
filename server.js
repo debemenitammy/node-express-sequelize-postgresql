@@ -30,7 +30,7 @@ async function startServer() {
 
     // Simple route
     app.get("/", (req, res) => {
-      res.json({ message: "Welcome to sample preview demo." });
+      res.json({ message: "Welcome to sample auto preview demo." });
     });
 
     // Routes
